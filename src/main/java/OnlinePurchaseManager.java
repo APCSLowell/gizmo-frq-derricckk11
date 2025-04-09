@@ -12,6 +12,11 @@ public class OnlinePurchaseManager
   public int countElectronicsByMaker(String maker)
   {
     /* to be implemented in part (a) */
+    int count = 0;
+    for(int i = 0; i < purchases.size(); i++){
+
+      if(purchases.isElectronic())
+    }
   }
   
   /** Returns true if any pair of adjacent purchased Gizmo objects are
