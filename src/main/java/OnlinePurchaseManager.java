@@ -51,8 +51,7 @@ public class OnlinePurchaseManager
   {
     purchases = new ArrayList <Gizmo>();
 
-    return purchases;
-  }
+ }
   public void add(Gizmo g)
   {
     purchases.add(g);
