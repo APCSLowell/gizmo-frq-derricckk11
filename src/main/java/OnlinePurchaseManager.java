@@ -49,6 +49,8 @@ public class OnlinePurchaseManager
   public OnlinePurchaseManager()
   {
     purchases = new ArrayList <Gizmo>();
+
+    return purchases;
   }
   public void add(Gizmo g)
   {
